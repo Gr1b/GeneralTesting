@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840040861E5F513200B34FF7 /* Pedometr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840040851E5F513200B34FF7 /* Pedometr.swift */; };
 		845C8EE91E5309E100F2B980 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845C8EE81E5309E100F2B980 /* AppDelegate.swift */; };
 		845C8EEB1E5309E100F2B980 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845C8EEA1E5309E100F2B980 /* ViewController.swift */; };
 		845C8EEE1E5309E100F2B980 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845C8EEC1E5309E100F2B980 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		840040851E5F513200B34FF7 /* Pedometr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pedometr.swift; sourceTree = "<group>"; };
 		845C8EE51E5309E100F2B980 /* GeneralTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeneralTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		845C8EE81E5309E100F2B980 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		845C8EEA1E5309E100F2B980 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				845C8EF41E5309E100F2B980 /* LaunchScreen.storyboard */,
 				845C8EF71E5309E100F2B980 /* Info.plist */,
 				845C8EEF1E5309E100F2B980 /* GeneralTesting.xcdatamodeld */,
+				840040851E5F513200B34FF7 /* Pedometr.swift */,
 			);
 			path = GeneralTesting;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				845C8EF11E5309E100F2B980 /* GeneralTesting.xcdatamodeld in Sources */,
+				840040861E5F513200B34FF7 /* Pedometr.swift in Sources */,
 				845C8EEB1E5309E100F2B980 /* ViewController.swift in Sources */,
 				845C8EE91E5309E100F2B980 /* AppDelegate.swift in Sources */,
 			);
@@ -518,6 +522,7 @@
 				845C8F121E5309E200F2B980 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		845C8F131E5309E200F2B980 /* Build configuration list for PBXNativeTarget "GeneralTestingTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +531,7 @@
 				845C8F151E5309E200F2B980 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		845C8F161E5309E200F2B980 /* Build configuration list for PBXNativeTarget "GeneralTestingUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +540,7 @@
 				845C8F181E5309E200F2B980 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
